@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    /* top-part-start */
+nav > button{
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+padding: 17px 24px;
+margin-top: 38px;
+background-color: transparent;
+font-size: 20px;
+}
+
+nav > h1{
+    margin-top: 50px;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+nav{
+    margin-bottom:35px;
+}
+    /* top-part-end */
+    
+    /* hero-banner-start */
+#heroimg{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+}
+
+.banner{
+    background-image: url(./assets/Hero-bg.png);
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+    border-color: #0D1321B3;
+}
+
+.banner > h1{
+    color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+margin-top: 32px;
+}
+
+.banner > p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.herobtn > button{
+    margin-top: 32px;
+    padding: 21px 24px;
+    color: #FFFFFF;
+    background-color: #0D1321;
+    border-radius: 8px;
+}
+
+.herobtn{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.herobtn > button{
+    margin-bottom: 44px;
+}
+    /* hero-banner-end */
+
+    /* section-1-start */
+
+.sec1{
+    padding: 74px 148px;
+    border-radius: 16px;
+}
+
+.why-web-dev > h1{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.why-web-dev > p{
+    color: #0D1321;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.why-web-dev{
+    padding: 80px 97px;
+    background-color: #0D132105;
+}
+
+.section1{
+    margin-top: 48px;
+    padding: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+}
+
+
+.txtsec1 > h1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.btnsec1{
+    height: fit-content;
+    position: absolute;
+    margin-top: 172px;
+    margin-right: 658px;
+    border: 1px solid;    
+    margin-left: 48px;
+    border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+
+.btnsec1 > button{
+    background-color: transparent;
+    color: #0D1321;
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+padding: 12px 20px;
+text-align: center;
+}
+
+.section2 > h1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    background-color: #FFFFFF;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
