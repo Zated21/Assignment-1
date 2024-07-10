@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Azeret Mono;
 }
     /* top-part-start */
 nav > button{
@@ -231,7 +232,7 @@ text-align: center;
     border: 1px solid;    
     border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
-margin-right: 1144px;
+margin-right: 1150px;
 }
 
 /* section-1-end */
@@ -241,7 +242,7 @@ margin-right: 1144px;
 
 .inspiration{
     margin-top: 88px;
-    padding: left 150px;
+    padding-left: 150px;
     padding-right: 150px;
     text-align: center;
 }
@@ -264,17 +265,17 @@ iframe{
 
     /* section-3-start */
 
-.section4{
+.section3{
     padding: 0px 150px 0px 150px;
     margin-top: 151px;
 }
 
-.section4 > h1{
+.section3 > h1{
     margin-bottom: 24px;
     text-align: center;
 }
 
-.section4 > p{
+.section3 > p{
     margin-bottom: 48px;
     text-align: center;
 }
@@ -297,10 +298,6 @@ iframe{
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
-    
-}
-
-.codecss > p{
     
 }
 
@@ -335,3 +332,115 @@ margin-bottom: 24px;
 .codehtml, .codecss, .codejs{
     margin-right: 24px;
 }
+
+.codehtml > a, .codecss > a, .codejs > a{
+font-size: 16px;
+font-weight: 700;
+color: #0D1321;
+}
+
+/* Section-3-end */
+
+/* section-optional-start */
+
+.optional{
+    margin: 111px 150px;
+}
+
+.optional > h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.optional > p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 48px;
+}
+
+.next-target{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+padding: 40px;
+margin-bottom: 24px;
+display: flex;
+}
+
+.next-target > img{
+    margin-right: 24px;
+}
+
+.nexttxt > h1{
+    margin-bottom: 8px;
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+}
+
+.nexttxt > p{
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+
+}
+
+.nexttxt > a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+}
+
+/* section-optional-end */
+
+/* last-section-start */
+
+.lastsection{
+    margin: 49px 150px;
+}
+
+.support{
+    margin-top: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 48px;
+    text-align: center;
+    border-radius: 16px;
+    background-image: url(./assets/handshake.jpg);
+}
+
+.support > h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support > p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 29px;
+}
+
+.input{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 20px 19px;
+    color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+border: none;
+}
+
